@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: url(./nacional-noche.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 80px;
+  text-align: center;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+main {
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  color: #333;
+}
+
+.futbol {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.futbol img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.futbol h2,
+p {
+  padding-bottom: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
